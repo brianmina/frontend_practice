@@ -15,6 +15,11 @@
 <body>
 	<h1>Hello humans, this is me:</h1>
 		<img src="https://i.imgur.com/i3gowT1.png?1"/>
+	<h3>I am very cute!</h3><br>
+		<form>
+  			<label for="volume"> How cute do you think I am?:</label>
+  			<input id="volume" name="volume" type="range" min="0" max="100" step="1">
+		</form>
 	<div>
 		<h6>"I love regular boxes as a bed."</h6>
 	</div>
@@ -35,11 +40,15 @@
 		src='' controls>
 		video not supported
 	</video>
-	<section>
+	<section class="users">
 		<form action="/Baby_karl.html" method="POST">
-			<h1>Ask me something</h1>
-				<label for="question">type a question here.</label><br>
-					<input type="text" name="Ask me something" id="question">
+			<h1>log in :)</h1>
+				<label for="user-name">Username: </label>
+					<input type="text" name="user" id="user-name">
+
+  				<label for="user-password">Password: </label>
+  					<input type="password" id="user-password" name="user-password">
+
 		</form>
 	</section>
 </body>
